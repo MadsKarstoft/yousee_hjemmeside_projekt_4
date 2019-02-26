@@ -24,6 +24,20 @@ body, html{
   padding-right: 10%;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
-  font-size: 2vw;
   min-height: 46px;
+  justify-content: center;
+  width: 100%;
+}
+
+.text_container h1{
+  font-size: 3vh;
+}
+
+.text_container p{
+  font-size: 2vh;
+}
+
+.telefoner_container img{
+  height: 20vh;
+  width: 20vw;
 }
