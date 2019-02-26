@@ -37,7 +37,33 @@ body, html{
   font-size: 2vh;
 }
 
+.produkter_container div{
+  text-align: center;
+  width: 33%;
+}
+
+.telefoner_container{
+  float: left;
+  height: 100%;
+}
 .telefoner_container img{
-  height: 20vh;
-  width: 20vw;
+ height: 80px;
+ width: 80px;
+}
+
+.tv_container{
+  float: left;
+}
+.tv_container img{
+  height: 80px;
+   width: 80px;
+}
+
+.netvaerk_container{
+  float: left;
+}
+
+.netvaerk_container img{
+  height: 80px;
+   width: 80px;
 }
