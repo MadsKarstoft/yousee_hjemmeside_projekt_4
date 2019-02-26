@@ -10,17 +10,20 @@ body, html{
 
 .banner_container{
   background-image: url(../img/samsung_galaxy.jpg);
-  height: 80%;
+  height: 30%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  text-align: center;
+  display: flex;
 }
 
-h1{
-  position: absolute;
-  margin-top: 300px;
-  font-size: 4em;
+.text_container{
+  text-align: center;
+  align-self: flex-end;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: rgba(0, 0, 0, 0.5);
-  color: green;
+  color: white;
+  font-size: 2vw;
+  min-height: 46px;
 }
