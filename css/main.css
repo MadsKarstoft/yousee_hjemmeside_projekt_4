@@ -6,6 +6,7 @@
 body, html{
   height: 100%;
   font-size: 12px;
+  overflow-x: hidden;
 }
 
 h1{
@@ -21,12 +22,29 @@ font-style: normal;
 }
 
 .banner_container{
+  position: relative;
   background-image: url(../img/samsung_galaxy.jpg);
-  height: 30%;
+  height: 40%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+}
+
+.pil_venstre{
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+}
+
+.pil_hoejre{
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
 }
 
 .text_container{
@@ -53,7 +71,9 @@ font-style: normal;
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #34823E;
 }
 
 
@@ -64,11 +84,14 @@ font-style: normal;
 .produkter_container p{
 text-align: center;
 font-size: 4em;
+color: white;
 }
 
 .telefon_modeller_container{
+  position: relative;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .telefon_modeller_container img{
@@ -78,4 +101,28 @@ font-size: 4em;
 .telefon_modeller_container p{
   text-align: center;
   font-size: 4em;
+}
+
+.pil_venstre_telefon_sektion{
+  position: absolute;
+  right: 40%;
+  height: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pil_hoejre_telefon_sektion{
+  position: absolute;
+  left: 40%;
+  height: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+.footer{
+  background-color: #388046;
+  width: 100vw;
+  height: 600px;
 }
