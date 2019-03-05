@@ -8,6 +8,18 @@ body, html{
   font-size: 12px;
 }
 
+h1{
+font-family: lft-etica, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+p{
+font-family: lft-etica, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
 .banner_container{
   background-image: url(../img/samsung_galaxy.jpg);
   height: 30%;
@@ -41,14 +53,29 @@ body, html{
   display: flex;
   justify-content: center;
   flex-direction: row;
+  margin-top: 20px;
 }
 
 
 .produkter_container img{
-width: 33vw;
+  width: 33vw;
+}
+
+.produkter_container p{
+text-align: center;
+font-size: 4em;
 }
 
 .telefon_modeller_container{
   display: flex;
   justify-content: center;
+}
+
+.telefon_modeller_container img{
+  width: 100%;
+}
+
+.telefon_modeller_container p{
+  text-align: center;
+  font-size: 4em;
 }
