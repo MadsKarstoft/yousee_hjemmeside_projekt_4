@@ -7,18 +7,58 @@ body, html{
   height: 100%;
   font-size: 12px;
   overflow-x: hidden;
+  font-family: lft-etica, sans-serif;
 }
 
 h1{
-font-family: lft-etica, sans-serif;
 font-weight: 700;
 font-style: normal;
 }
 
 p{
-font-family: lft-etica, sans-serif;
 font-weight: 400;
 font-style: normal;
+}
+
+header{
+  background-color: #46A252;
+  font-size: 18px;
+}
+
+.navigationsmenu{
+  display: none;
+}
+
+.link_nav{
+  color: white;
+  text-decoration: none;
+}
+
+nav li{
+  padding: 6px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.logo_billede{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav_knap_billede{
+  position: absolute;
+  top: 14px;
+  width: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
+.active{
+  display: block;
 }
 
 .banner_container{
